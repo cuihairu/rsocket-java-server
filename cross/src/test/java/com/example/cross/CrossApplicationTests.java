@@ -1,4 +1,4 @@
-package com.example.demo.cross;
+package com.example.cross;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
