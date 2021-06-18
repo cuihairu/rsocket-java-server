@@ -13,6 +13,8 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>RSocket Java Server Demo</name>
+    <!-- 指定POM 只提供必要的依赖 -->
+    <packaging>pom</packaging>
     <description>Demo project for RSocket Server</description>
     <modules>
         <!--game server -->
