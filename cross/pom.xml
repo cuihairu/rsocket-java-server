@@ -7,7 +7,6 @@
         <artifactId>demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.example</groupId>
     <artifactId>cross</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Cross - Cross Game Server</name>
@@ -25,6 +24,11 @@
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>wire</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- 引入log4j2依赖 -->
         <dependency>
